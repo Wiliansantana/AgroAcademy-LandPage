@@ -1,0 +1,191 @@
+/*
+ Documento CSS do Webinar Ao Vivo
+ Criador: Weslei Silveira - www.wesleisilveira.com.br
+ Data: 08/11/2017
+
+ Resolutions:
+ col-xs-* ---> mobile
+ col-sm-* ---> tablet
+ col-md-* ---> laptops
+ col-lg-* ---> large monitors
+ */
+
+/* ------------------------------------------------------------------------------- */
+/*  Typography
+/* ------------------------------------------------------------------------------- */
+
+body {
+	font-family: 'opensans-regular';
+}
+
+h1 {
+	font-family: 'amplesoft-light';
+    font-size: 50px;
+    line-height: 58px;
+    color: #385A7B;
+}
+
+h2 {
+    font-family: 'amplesoft-regular';
+    font-size: 40px;
+    line-height: 48px;
+    color: #385A7B;
+}
+
+h3 {
+    font-family: 'amplesoft-regular';
+    font-size: 40px;
+    line-height: 48px;
+    color: #385A7B;
+}
+
+h4 {
+	font-family: 'amplesoft-regular';
+	font-size: 24px;
+	line-height: 32px;
+	color: #4983BB;
+}
+
+h5 {
+    font-family: 'amplesoft-regular';
+    font-size: 24px;
+    line-height: 32px;
+    color: #385A7B;
+}
+
+h6 {
+	font-family: 'amplesoft-light';
+	font-size: 24px;
+	line-height: 32px;
+	color: #4983BB;
+}
+
+h1 > strong,
+h2 > strong,
+h3 > strong,
+h4 > strong,
+h5 > strong,
+h6 > strong {
+	font-family: 'amplesoft-medium';
+}
+
+p {
+	font-family: 'opensans-regular';
+	font-size: 16px;
+	line-height: 24px;
+	color: #7F7F7F;
+}
+
+p > i {
+	font-family: 'opensans-italic';
+	font-weight: normal;
+}
+
+strong {
+	font-family: 'opensans-semibold';
+	font-weight: normal;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Buttons
+/* ------------------------------------------------------------------------------- */
+
+.btn {
+	max-width: 260px;
+	display: inline-block;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Hero
+/* ------------------------------------------------------------------------------- */
+
+.hero {
+	width: 100%;
+	min-height: 385px;
+	position: relative;
+}
+
+.hero p {
+	font-family: 'opensans-light';
+	font-size: 18px;
+	line-height: 24px;
+	margin: 20px 0;
+}
+
+.hero .embed-responsive {
+	margin: 40px 0;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  About
+/* ------------------------------------------------------------------------------- */
+
+.about h2 {
+	margin-bottom: 30px;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Features
+/* ------------------------------------------------------------------------------- */
+
+.features h3 {
+	margin-bottom: 30px;
+}
+
+.features h5 {
+    margin: 10px 0;
+}
+
+.features img {
+	width: auto;
+	max-height: 250px;
+	margin: 0px auto;
+}
+
+.features .detail {
+	margin-bottom: 60px;
+}
+
+.features .detail:last-child {
+	margin-bottom: 0;
+}
+
+.features .detail h5 {
+	margin: 0 0 10px;
+}
+
+.features .detail p {
+	font-family: 'opensans-light';
+	font-size: 18px;
+	line-height: 24px;
+	color: #878C94;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Sign
+/* ------------------------------------------------------------------------------- */
+
+.sign h3 {
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+.sign .hs-form .hs-form-field > label {
+	margin-bottom: 5px;
+}
+
+.sign .hs-button.primary {
+	width: 100%;
+	line-height: 100%;
+	padding: 11px;
+	white-space: normal;
+}
+
+.sign.typ textarea {
+	min-height: 270px;
+}
+
+.sign.typ input[type="submit"] {
+	max-width: 260px;
+}

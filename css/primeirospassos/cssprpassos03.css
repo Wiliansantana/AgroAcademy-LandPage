@@ -1,0 +1,182 @@
+/*
+ Documento CSS da Thankyou Page
+ Criador: Weslei Silveira - www.wesleisilveira.com.br
+ Data: 08/11/2017
+
+ Resolutions:
+ col-xs-* ---> mobile
+ col-sm-* ---> tablet
+ col-md-* ---> laptops
+ col-lg-* ---> large monitors
+ */
+
+/* ------------------------------------------------------------------------------- */
+/*  Typography
+/* ------------------------------------------------------------------------------- */
+
+body {
+	font-family: 'opensans-regular';
+}
+
+h1 {
+	font-family: 'amplesoft-light';
+	font-size: 32px;
+	color: #4983BB;
+	line-height: 44px;
+}
+
+h2 {
+	font-family: 'amplesoft-light';
+	font-size: 28px;
+	color: #385A7B;
+	line-height: 36px;
+}
+
+h3 {
+	font-family: 'amplesoft-regular';
+	font-size: 22px;
+	color: #385A7B;
+	line-height: 100%;
+	margin-bottom: 54px;
+}
+
+h4 {
+	font-family: 'amplesoft-light';
+	font-size: 16px;
+	color: #385A7B;
+	line-height: 100%;
+	margin-top: 30px;
+}
+
+h1 > strong,
+h2 > strong,
+h3 > strong,
+h4 > strong {
+	font-family: 'amplesoft-medium';
+}
+
+p {
+	font-family: 'opensans-regular';
+	font-size: 16px;
+	color: #878C94;
+	line-height: 100%;
+}
+
+p > i {
+	font-family: 'opensans-italic';
+	font-weight: normal;
+}
+
+strong {
+	font-family: 'opensans-semibold';
+	font-weight: normal;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Navbar
+/* ------------------------------------------------------------------------------- */
+
+.navbar-default .navbar-nav > li {
+    color: #878C94;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Download
+/* ------------------------------------------------------------------------------- */
+
+#download {
+	width: 100%;
+	background: #FFF;
+	padding: 60px 0;
+	position: relative;
+}
+
+#download .btn {
+	margin: 40px 0 0;
+}
+
+#download dl dd {
+	font-size: 16px;
+	color: #878C94;
+	line-height: 29px;
+}
+
+#download .see-more {
+	width: 85px;
+	height: auto;
+	position: absolute;
+	bottom: -20px;
+	right: 30%;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Call to Action
+/* ------------------------------------------------------------------------------- */
+
+#cta {
+	background: #F1F4F9;
+	border-top: 1px solid #CFBDC6;
+	border-bottom: 1px solid #CFBDC6;
+	padding: 60px 0;
+}
+
+#cta .btn {
+	width: 79%;
+	margin-top: 50px;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  About
+/* ------------------------------------------------------------------------------- */
+
+#about {
+	padding: 100px 0;
+}
+
+#about p {
+	font-size: 18px;
+	margin-top: 25px
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Social
+/* ------------------------------------------------------------------------------- */
+
+#social {
+	padding-bottom: 100px;
+}
+
+#social .icon {
+	width: 34px;
+	height: 34px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 2em;
+	text-decoration: none;
+	text-align: center;
+	color: #8BC8F6;
+	border: 2px solid #8BC8F6;
+	margin-left: 30px;
+	padding: 0px;
+	border-radius: 27px;
+}
+
+#social .icon:first-child {
+	margin: 0;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  Footer
+/* ------------------------------------------------------------------------------- */
+
+#footer {
+	border-top: 1px solid #CFBDC6;
+	background: #FFF;
+}
+
+#footer hr {
+	border-color: #FFF;
+}

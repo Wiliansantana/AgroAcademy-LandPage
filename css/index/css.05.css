@@ -1,0 +1,81 @@
+/*
+ Documento CSS do Webinar ao Vivo
+ Seguindo os padrÃµes do Bootstrap - http://getbootstrap.com/css/#grid-media-queries
+ Criador: Weslei Silveira - www.wesleisilveira.com.br
+ Data: 08/11/2017
+ */
+
+/* ------------------------------------------------------------------------------- */
+/* Large devices (large desktops, 1200px and up) - col-lg-*
+/* ------------------------------------------------------------------------------- */
+
+@media (min-width: 1200px) {}
+
+/* ------------------------------------------------------------------------------- */
+/* Medium devices (desktops, 992px and up) - col-md-*
+/* ------------------------------------------------------------------------------- */
+
+@media (min-width: 992px) {}
+
+/* ------------------------------------------------------------------------------- */
+/* Small devices (tablets, 768px and max 991px) - col-sm-*
+/* ------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/* ------------------------------ */
+	/* Features Details
+	/* ------------------------------ */
+
+	.features {
+		text-align: center;
+	}
+
+	.features p {
+		margin-bottom: 50px;
+	}
+
+	.features img {
+		margin-bottom: 30px;
+	}
+
+	.features .detail {
+		margin: 0;
+	}
+
+}
+
+/* ------------------------------------------------------------------------------- */
+/* Extra small devices (phones, less than 768px) - col-xs-*
+/* ------------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+
+	/* ------------------------------ */
+	/* Buttons
+	/* ------------------------------ */
+
+	.btn {
+		margin-bottom: 20px;
+	}
+
+	/* ------------------------------ */
+	/* Features Details
+	/* ------------------------------ */
+
+	.features {
+		text-align: center;
+	}
+
+	.features p {
+		margin-bottom: 50px;
+	}
+
+	.features img {
+		margin-bottom: 30px;
+	}
+
+	.features .detail {
+		margin: 0;
+	}
+}
