@@ -15,46 +15,46 @@
 /* ------------------------------------------------------------------------------- */
 
 body {
-	font-family: 'opensans-regular';
+	font-family: 'pingpong-regular';
 }
 
 h1 {
-	font-family: 'amplesoft-light';
+	font-family: 'pingpong-light';
     font-size: 50px;
     line-height: 58px;
     color: #385A7B;
 }
 
 h2 {
-    font-family: 'amplesoft-regular';
+    font-family: 'pingpong-regular';
     font-size: 40px;
     line-height: 48px;
     color: #385A7B;
 }
 
 h3 {
-    font-family: 'amplesoft-regular';
+    font-family: 'pingpong-regular';
     font-size: 40px;
     line-height: 48px;
     color: #385A7B;
 }
 
 h4 {
-	font-family: 'amplesoft-regular';
+	font-family: 'pingpong-regular';
 	font-size: 24px;
 	line-height: 32px;
 	color: #4983BB;
 }
 
 h5 {
-    font-family: 'amplesoft-regular';
+    font-family: 'pingpong-regular';
     font-size: 24px;
     line-height: 32px;
     color: #385A7B;
 }
 
 h6 {
-	font-family: 'amplesoft-light';
+	font-family: 'pingpong-light';
 	font-size: 24px;
 	line-height: 32px;
 	color: #4983BB;
@@ -66,23 +66,23 @@ h3 > strong,
 h4 > strong,
 h5 > strong,
 h6 > strong {
-	font-family: 'amplesoft-medium';
+	font-family: 'pingpong-medium';
 }
 
 p {
-	font-family: 'opensans-regular';
+	font-family: 'pingpong-regular';
 	font-size: 16px;
 	line-height: 24px;
 	color: #7F7F7F;
 }
 
 p > i {
-	font-family: 'opensans-italic';
+	font-family: 'pingpong-regular';
 	font-weight: normal;
 }
 
 strong {
-	font-family: 'opensans-semibold';
+	font-family: 'pingpong-medium';
 	font-weight: normal;
 }
 
@@ -106,7 +106,7 @@ strong {
 }
 
 .hero p {
-	font-family: 'opensans-light';
+	font-family: 'pingpong-light';
 	font-size: 18px;
 	line-height: 24px;
 	margin: 20px 0;
@@ -155,7 +155,7 @@ strong {
 }
 
 .features .detail p {
-	font-family: 'opensans-light';
+	font-family: 'pingpong-light';
 	font-size: 18px;
 	line-height: 24px;
 	color: #878C94;
